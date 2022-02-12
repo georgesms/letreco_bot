@@ -29,7 +29,9 @@ btn_green_style={"color":"white", 'display': 'inline-block', "float":"left"}
 
 intro=""" Recomendador de palpites para Letreco e jogos tipo WORDLE em português.
 No seu aplicativo de escolha selecione uma palavra inicial. Algumas boas são 'raios' e 'serao'.
-Escreva a sua escolha na primeira caixa de texto e aperte os botões para informar a cores do feedback.
+Você chuta uma palavra no WORDLE, você volta aqui com as cores da palavra e eu te dou um próximo palpite. 
+Escreva a sua escolha na primeira caixa de texto e APERTE NOS BOTÕES CINZA com as letras para informar a cores do feedback.
+Um aperto para letra vermelha, dois para amarelo, três para verde.
 Depois aperte o botão RECOMENDAR que aqui mesmo aparecerá um conjunto de palavras possíveis de serem a correta e ainda uma recomendação para o seu próximo palpite.
 """
 
