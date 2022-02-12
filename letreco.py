@@ -44,8 +44,8 @@ app.layout = html.Div([
             
         ) for palpite in range(6)
     ]),
-    html.H1("."),
-    html.H1("."),    
+    html.H1("."), 
+    html.H1("."), 
     html.H1("."),
     html.H1("."),
     html.Div(id="output_div", style={'margin-left': app_margins, 'margin-right': app_margins}, children=[
@@ -56,6 +56,15 @@ app.layout = html.Div([
         html.P(id=f'palpite_quality', style={"font-size":"normal", "color":"DarkGreen"}),
         html.P(id=f'lexico', style={"font-size":"normal", "color":"DarkGreen"}),
         html.P(id=f'recomendacao', style={"font-size":"normal", "color":"DarkGreen"}),
+        html.H1("."), 
+        html.H1("."), 
+        html.H5("Jogos tipo WORDLE em português:"),
+        html.A("Termooo, ", href="https://term.ooo/", target="_blank"),
+        html.A("Charada, ", href="https://charada.vercel.app/", target="_blank"),
+        html.A("Letreco, ", href="https://www.gabtoschi.com/letreco/", target="_blank"),
+        html.A("Palavra do dia, ", href="https://palavra-do-dia.pt/", target="_blank"),
+        html.A("Olavooo, ", href="https://olav.ooo/", target="_blank"),
+        html.A("WORDLE, ", href="https://wordlegame.org/wordle-in-portuguese", target="_blank"),
     ]),
 ])
 
