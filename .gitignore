@@ -1,0 +1,11 @@
+venv
+letreco
+wiki
+*.pyc
+.env
+.DS_Store
+word_count.pkl
+palavras.txt
+performance_wiki.pkl
+performance.pkl
+explored_subdir.pkl
